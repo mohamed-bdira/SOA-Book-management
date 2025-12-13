@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/publisher")
+@RequestMapping("/api/publisher")
 public class PublisherController {
     PublisherService publisherService;
     public PublisherController(PublisherService publisherService) {
