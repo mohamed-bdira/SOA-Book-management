@@ -1,4 +1,7 @@
 package com.library.book_management.repository;
 
-public class PublisherRepository {
+import com.library.book_management.model.Publisher;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PublisherRepository extends JpaRepository<Publisher, Long> {
 }
